@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kourse (latihan) </title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0c1b38;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 60px;
+      background-color: transparent;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .signup-btn {
+      background-color: #2e3b58;
+      padding: 10px 20px;
+      border-radius: 8px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px;
+      flex-wrap: wrap;
+    }
+
+    .hero-text {
+      max-width: 550px;
+    }
+
+    .hero-text h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      font-size: 18px;
+      color: #b3c0d1;
+      margin-bottom: 30px;
+    }
+
+    .btn-primary {
+      background-color: #ff6a00;
+      padding: 14px 24px;
+      border: none;
+      border-radius: 30px;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+
+    .btn-secondary {
+      color: #ff6a00;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .course-card {
+      background-color: white;
+      color: #000;
+      width: 300px;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    .course-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .course-content {
+      padding: 20px;
+    }
+
+    .course-content span {
+      display: inline-block;
+      background-color: #eee;
+      color: #333;
+      font-size: 12px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+
+    .course-content h3 {
+      margin: 10px 0;
+    }
+
+    .course-price {
+      color: #e63946;
+      font-weight: bold;
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    .course-footer {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      color: #555;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 80px;
+      padding: 40px 60px;
+      background-color: #0a1732;
+    }
+
+    .feature {
+      max-width: 400px;
+    }
+
+    .feature h4 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: white;
+    }
+
+    .feature p {
+      color: #b3c0d1;
+      font-size: 15px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Kourse</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Post a Job</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="signup-btn">Sign Up</a>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Elevate Your Career to the Next Level</h1>
+      <p>Get expert-led instruction from experienced professionals in industry and gain valuable skills and knowledge that can be applied to your career or personal life.</p>
+      <a href="#" class="btn-primary">Find a Course</a>
+      <a href="#" class="btn-secondary">Learn More</a>
+    </div>
+
+    <div class="course-card">
+      <img src="meet.jpeg" alt="Front-End Development">
+      <div class="course-content">
+        <span>Web Development</span>
+        <h3>Front-End Development</h3>
+        <div class="course-price">$599</div>
+        <div class="course-footer">
+          <div>13h 18min • 18 Lessons</div>
+          <div><a href="#">View Details →</a></div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h4>🕓 Self-paced Learning</h4>
+      <p>This feature allows learners to progress through the course at their own pace, rather than being tied to a fixed schedule. useful for learners who have busy schedules or who prefer to learn at their own speed.</p>
+    </div>
+    <div class="feature">
+      <h4>🔍 Instructor support</h4>
+      <p>Providing learners with access to the instructor can be a valuable feature, as it allows them to ask questions and get feedback in real-time — like live Q&A or consultations, or one-on-one consultations.</p>
+    </div>
+  </section>
+
+</body>
+</html>
